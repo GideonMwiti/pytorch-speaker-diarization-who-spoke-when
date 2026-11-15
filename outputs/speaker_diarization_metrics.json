@@ -1,0 +1,24 @@
+{
+  "project": "Project 82: Speaker Diarization (Who Spoke When)",
+  "model": {
+    "architecture": "SpeakerEmbeddingNet (d-Vector Extractor)",
+    "parameters": 456168,
+    "embedding_dim": 256,
+    "model_size_mb": 1.740142822265625
+  },
+  "diarization_metrics": {
+    "diarization_error_rate_der": 0.30344827586206896,
+    "speaker_confusion_rate": 0.2,
+    "missed_speech_rate": 0.0,
+    "false_alarm_rate": 0.10344827586206896,
+    "reference_turns": 8,
+    "hypothesis_turns": 10
+  },
+  "latency_benchmark": {
+    "mean_window_ms": 4.79966471336714,
+    "median_window_ms": 4.809918499631749,
+    "p95_window_ms": 6.0492703995805615,
+    "real_time_factor_rtf": 0.003999720594472617,
+    "throughput_windows_per_sec": 208.34788672112543
+  }
+}
